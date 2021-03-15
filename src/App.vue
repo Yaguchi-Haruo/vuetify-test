@@ -34,11 +34,6 @@
     </v-app-bar>
 
     <v-main>
-      <v-switch
-        v-model="theme"
-        :prepend-icon="themeIcon"
-        style="float: right"
-      ></v-switch>
       <HelloWorld />
     </v-main>
   </v-app>
